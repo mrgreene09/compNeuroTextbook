@@ -3,7 +3,7 @@ title: "Computational Neuroscience"
 author: "Students of NS/PY 357 Bates College"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-output: bookdown::pdf_book
+output: bookdown::gitbook
 documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
@@ -30,4 +30,19 @@ description: "TBD"
 
   We hope that you enjoy this book. Please feel free to reach out to me if you have any questions or comments about our work: mgreene2@bates.edu.
 
+## Authors
+Juliet Bockhorst (2022)  
+Abraham Brownell (2020)  
+Paloma Noriega Burrill (2021)  
+Catherine Crossin (2020)  
+Leo Crossman (2020)  
+Logan Douglas (2020)  
+Nick Antonellis (2021)  
+Robin Kass (2020)  
+Sasha Cadariu (2021)  
+Wuyue Zhou (2021)  
+
+![](images/class.jpg)  
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 

@@ -10,6 +10,11 @@
 
 * Bottom-up Processing: Bottom-up organization refers to the reverse process, collecting data and then organizing it to create a theory.  
 
+* Classifier: A type of supervised learning that learns from training data and makes predictions on test data. Specific types of classifiers include:  
+  + Distance-based classifier
+  + Boundary-based classifier  
+  
+
 * Coefficient of Variation: Standard deviation divided by the mean of a set of data.  
 
 * Computational Neuroscience: Computational neuroscience is an interdisciplinary field that applies the principles of mathematics, philosophy, and computer science to study the inner workings of the brain.  
@@ -19,6 +24,12 @@
 * Conductance: Allows the flow of charge.  
 
 * Cost: Calculation in Backpropagation using the Mean Squared Error: $MSE = \frac{1}{n}\sum_{i=1}^{n} (Y_{i}-Yhat_{i})^2$.  Used to change weights with the goal of minimizing cost at each iteration.  
+
+* Cross-validation: A decoding scheme that repeatedly partitions the data set into a test set and the remaining data into a training set and makes predictions for every test set until predictions are made for every data point in the data set.  
+
+* Curse of dimensionality: As we move up to in dimensions and start calculating distances in hyperplanes, these operations become exponentially less efficient. 
+
+* Decoding: Field of neuroscience aimed at using action potential data in a single neuron or neural networks to identify the stimuli that caused the neural activity. 
 
 * Depolarization: This process of positive ions flowing into the cell.  
 
@@ -30,7 +41,7 @@
 
 * Fano Factor: The fano factor is used to measure the spike variability in a spike train. It is calculated by the variance of the number of spikes divided by the mean number of spikes in a given time interval.  
 
-*Gating variable: The Fire Model is broken up into three separate conductance terms, each relating to a different ion channel called the m, h, and n variables.  
+* Gating variable: The Fire Model is broken up into three separate conductance terms, each relating to a different ion channel called the m, h, and n variables.  
 
 * Hardware and Implementation: Hardware implementation is the physical machinery that realizes the algorithm.  
 
@@ -38,17 +49,30 @@
 
 * Hidden Layers: Additional layers used when an output is not linearly separable (like XOR); these layers of neurons are chained together via multiple nonlinearities from the various units to solve the problem. Each of these hidden layers–as well as the output layer–will have its own activation function.  
 
-* Hyperpolarization: To decrease the membrane potential towards a more negative value through outward electrical current.  
+* Hyperpolarization: To decrease the membrane potential towards a more negative value through outward electrical current. 
+
+* Imaging techniques: There are multiple types of imaging techniques commonly employed by researchers to obtain data and recordings from participants.  The techniques include: 
+  + EEG
+  + MEG
+  + fMRI
+  + ECOG  
+  
 
 * Interspike Interval: The time interval between every pair of spikes.  
 
 * Leak Current: Leak currents are the passive membranes that are dependent on the membrane potential to drive the electrical potentials of the permeable ions and concentration gradient.  
+
+* Linear discriminant analysis: Type of decision-based classifier algorithm that maximizes that distance between centroid means.  
+
+* Linear support vector machine (LSVM): type of decision-based classifier algorithm that creates a boundary that maximizes the distance between the hard examples in the training set (known as the support vectors); LSVM works well with high dimensional data.
 
 * Linearly Separable: Different classes of outputs in space that can be separated with a single decision surface.  
 
 * McCulloch-Pitts (MCP) Neuron: Initial neural network model designed by McCulloch and Pitts that takes multiple inputs with associated weights to produce a single output.  
 
 * Membrane Potential: The potential difference across the cell membrane.  
+
+* Multivariate pattern analysis (MVPA): Method utilized for all the imaging techniques as a broad form of decoding that factors in the relationship between variables so they are not treated as independent variables.
 
 * Negative Feedback: A process by which an initial change is opposed by a force caused by the initial change.  
 
@@ -63,6 +87,8 @@
 * Poisson Process: Probabilistic production of events, such as spikes, at any point in time with equal probability per unit time.  
 
 * Positive Feedback: A process by which depolarization of the cell causes further depolarization. More generally, a positive feedback loop is a process that perpetuates itself.  
+
+* Rank measure: A type of decoding that ranks the probability for all labels and measures the distance between the predicted label and the top.  
 
 * Reconstructionism: Reconstructionism is similar to reductionism, except with the added step of reconstructing the reduced parts.  
 
